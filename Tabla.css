@@ -1,0 +1,24 @@
+table{
+    margin-top: 50px; /* separación de arriba*/
+    caption-side: bottom;
+    margin-left: auto; /*siempre estará centrado aunque mueva la pestala*/
+    margin-right: auto;
+
+}
+
+th{
+    background-color: #96D4D4;
+}
+td{
+    background-color: #e4eded;
+
+}
+th,td {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px; /*separación de las letras en la tabla*/
+    border-style: solid;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
